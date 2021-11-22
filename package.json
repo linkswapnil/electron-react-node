@@ -164,8 +164,10 @@
     "@teamsupercell/typings-for-css-modules-loader": "^2.5.1",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.1.2",
+    "@types/cors": "^2.8.12",
     "@types/enzyme": "^3.10.10",
     "@types/enzyme-adapter-react-16": "^1.0.6",
+    "@types/express": "^4.17.13",
     "@types/history": "4.7.9",
     "@types/jest": "^27.0.2",
     "@types/node": "16.11.6",
@@ -232,6 +234,8 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
     "electron-debug": "^3.2.0",
     "electron-log": "^4.4.1",
     "electron-updater": "^4.3.9",

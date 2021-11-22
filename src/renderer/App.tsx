@@ -1,6 +1,7 @@
 import { MemoryRouter as Router, Switch, Route } from 'react-router-dom';
 import icon from '../../assets/icon.svg';
 import './App.css';
+import services from './services';
 
 const Hello = () => {
   return (
@@ -40,6 +41,7 @@ const Hello = () => {
 };
 
 export default function App() {
+  services.getData();
   return (
     <Router>
       <Switch>
